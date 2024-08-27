@@ -26,3 +26,5 @@ Walkthrough video url : https://drive.google.com/file/d/1XkT54t0OxyDCXPjhj4p9BpX
 
 
 GitHub url:  https://github.com/ktcv31/NoteItDown
+
+deployeed url:

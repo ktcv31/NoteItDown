@@ -1,0 +1,9 @@
+exclude:
+  - node_modules
+  - Develop/node_modules
+
+source: Develop
+destination: _site
+exclude:
+  - node_modules
+  - Develop/node_modules
