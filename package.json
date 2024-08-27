@@ -1,0 +1,16 @@
+{
+  "name": "noteitdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "dev": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build"
+  },
+  "dependencies": {
+    "balanced-match": "^3.0.1",
+    "express": "^4.17.1",
+    "uniqid": "^5.3.0"
+  }
+}
