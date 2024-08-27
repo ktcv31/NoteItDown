@@ -14,18 +14,10 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.3.4 
+        ruby-version: 3.2.2  
 
     - name: Install dependencies
       run: bundle install
 
     - name: Build the site
-      run: bundle exec jekyll build
-
-    - name: Deploy to GitHub Pages
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "github-actions@github.com"
-        git add .
-        git commit -m "Deploy to GitHub Pages"
-        git push
+      run: bundle exec jekyll
