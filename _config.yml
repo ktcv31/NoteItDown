@@ -1,9 +1,0 @@
-exclude:
-  - node_modules
-  - vendor/bundle
-  - Gemfile
-  - Gemfile.lock
-  - .bundle
-  - .jekyll-cache
-  - .jekyll-metadata
-  - _site
