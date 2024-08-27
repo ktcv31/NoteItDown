@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.9.2'
+gem 'i18n', '0.9.5'
+
 
